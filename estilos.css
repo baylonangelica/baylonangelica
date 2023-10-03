@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.Inicio {
+    align-items: center;
+    min-height: 70vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.menu .navbar ul li a{
+    color: #00365F;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    display: block;
+    text-decoration: #E2725B;
+}
+
+.menu .navbar ul li a:hover{
+    color: #E2725B;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.bebida h2{
+    color: #00365F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.bebida h3{
+    color: #00365F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.bebida {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.bebida-content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 35px
+}
+
+.bebida-1 img{
+    width: 250px;
+}
+
+.btn-ver {
+    display: inline-block;
+    padding: 20px 120px;
+    background-color: #E2725B;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-ver:hover {
+    background-color: #e2725b9e;
+}
+
+
+
+
+.libros h2{
+    color: #00365F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.libros-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.libros {
+    padding: 60px 0 70px;
+    text-align: center;
+}
+
+.libros-1 img{
+    width: 250px;
+}
+
+.btn-mas {
+    display: inline-block;
+    padding: 20px 120px;
+    background-color: #00365F;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-mas:hover {
+    background-color: #00365fb2;
+}
+
+
+
+.nosotros{
+    display: flex;
+    padding: 50px 0;
+}
+
+.nosotros content{
+    width: 526;
+}
+
+.nosotros img{
+    width: 726px;
+    text-align: right;
+}
+
+.nosotros-img img{
+    width: 500px;
+}
+
+.nosotros h1{
+    color: #00365F;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nosotros p{
+    color: #00365F;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+#nombre {
+    width: 100%;
+}
+
+input {
+    border-style: none;
+    border-radius: 10px;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.registro input{
+    padding: 10px 10px;
+    width: 100%;
+    color: #FFFF;
+    background-color: #e2725b82;
+}
+
+.btn-enviar {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #E2725B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-enviar:hover {
+    background-color: #E2725B;
+}
+
+.contacto{
+    margin-top: -5px;
+    width: 60%;
+    padding: 50px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.contacto h1{
+    display: flex;
+    color: #00365F;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacto-1{
+    align-items: center;
+    text-align: left;
+    margin-bottom: 35px;
+ }
+
+.contacto-info{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.contacto-txt{
+    width: 50%;
+}
+
+.contacto-in{
+    margin-left: 20px;
+}
+
+.contacto-in p{
+    color: #00365F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+
+.contacto-info p{
+    color: #00365F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+.direccion{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+}
+
+
+
+.footer{
+    padding: 50px 0;
+    background-color: #00365F;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informa{
+    width: 30%;
+}
+
+.informa p{
+    color: #FFFF;
+}
+
+.footer-content .container{
+    width: 130px;
+}
+
+.link h3{
+    color: #FFFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.link a{
+    color:#FFFF;
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.link a:hover{
+    color:#E2725B
+}
+
+
+
+
+
+
+
+@media (max-width:991px){
+    .menu {
+      padding: 30px;
+    }
+  
+    .menu label {
+      display: initial;
+    }
+  
+    .menu .navbar {
+      position: absolute;
+      flex-direction: column;
+      display: flex;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #00365F;
+      width: 100%;
+    }
+  
+    .menu .nav ul li {
+      width: 100%;
+    }
+  
+    .menu .navbar ul li a{
+      color: #ffff;
+    }
+  
+    #menu:checked~.navbar{
+      display: initial;
+    }
+  
+
+  
+  
+    .bebida{
+        min-height: 0vh;
+        padding: 30px;
+    }
+  
+    .bebida h2{
+      margin: 0;
+    }
+  
+    .bebida-content{
+      flex-direction: column;
+      margin-bottom: 15px;
+      justify-content: space-between;
+      grid-template-columns: none;
+    }
+  
+    .bebida-1 {
+      padding: 0 25px;
+      margin-bottom: 25px;
+    }
+  
+
+    .libros-content{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .libros {
+      padding: 30px;
+    }
+  
+    .libros-1 {
+      flex-direction: column;
+    }
+  
+    .contacto-txt {
+      width: 100%;
+    }
+  
+    .contacto-in {
+      margin-left: 40px;
+    }
+  
+    .libros-img {
+      width: 100%;
+      order: 2;
+    }
+  
+    .libros-img img {
+      width: 100%;
+    }
+
+    .nosotros-content{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nosotros{
+        display: flex;
+    }
+
+    .nosotros img{
+        width: 100%;
+        border-radius: 0;
+        box-shadow: 0px 3px 5px #00365f00;
+    }
+    .container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+    .bg-contacto2 {
+      display: none;
+    }
+  
+    .btn-ver{
+        font-size: 28px;
+        padding: 15px 80px;
+    }
+
+    .btn-mas{
+        font-size: 28px;
+        padding: 15px 80px;
+    }
+    .contacto{
+      padding: 30px;
+      margin-top: 0%;
+      text-align: center;
+      width: auto;
+    }
+
+    .contacto h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .contacto h2 {
+      margin-bottom: 10px;
+    }
+  
+    .contactp-content {
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .footer {
+      padding: 30px;
+    }
+  
+    .footer-content{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .informa {
+      text-align: center;
+    }
+  }
+  
